@@ -87,7 +87,7 @@ const Navigation = () => {
             </a>
             <Button
               onClick={() => scrollToSection("appointment")}
-              className="gradient-primary text-white hover:opacity-90 transition-smooth"
+              variant="orange"
             >
               Book Appointment
             </Button>
@@ -124,7 +124,8 @@ const Navigation = () => {
               </a>
               <Button
                 onClick={() => scrollToSection("appointment")}
-                className="gradient-primary text-white w-full"
+                variant="orange"
+                className="w-full"
               >
                 Book Appointment
               </Button>

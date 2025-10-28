@@ -74,7 +74,8 @@ const Hero = () => {
               <Button
                 size="lg"
                 onClick={() => scrollToSection("appointment")}
-                className="gradient-primary text-white text-lg px-8 py-6 hover:opacity-90 transition-smooth group"
+                variant="orange"
+                className="text-lg px-8 py-6 group"
               >
                 Book Appointment
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-smooth" />

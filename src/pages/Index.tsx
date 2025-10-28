@@ -1,5 +1,8 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
+import StatsBar from "@/components/StatsBar";
+import ReviewsHighlight from "@/components/ReviewsHighlight";
+import ServiceSelector from "@/components/ServiceSelector";
 import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Team from "@/components/Team";
@@ -15,6 +18,9 @@ const Index = () => {
       <Navigation />
       <main>
         <Hero />
+        <StatsBar />
+        <ReviewsHighlight />
+        <ServiceSelector />
         <Services />
         <WhyChooseUs />
         <Team />
